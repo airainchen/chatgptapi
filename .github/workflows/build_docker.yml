@@ -3,13 +3,13 @@ name: Build Docker Image
 on:
   push:
     branches:
-      - main
+      - deploy
     paths-ignore:
       - 'README.md'
   workflow_dispatch:
 
 env:
-  GHCR_REPO: ghcr.io/aurora-develop/aurora
+  GHCR_REPO: ghcr.io/airainchen/rgznv1
 
 jobs:
   main:
